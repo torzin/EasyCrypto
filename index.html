@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyCrypto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+    <nav>
+        <ul id="navbar">
+            <li class="nav-itens"><a href="#">Home</a></li>
+            <li class="nav-itens"><a href="#">Exchange Crypto</a></li>
+            <li class="nav-itens"><a href="#">Crypto Price</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="slide">
+            <div class="button" id="previous">&laquo</div>
+            <div class="items"></div>
+            <div class="button" id="next">&raquo</div>
+        </div>
+
+        <h3>See More --></h3>
+        <div id="homeCryptos">
+            <div class="indexCryptoPrices">
+                <div class="cryptoCards">
+                    <img src="img/Rectangle 11.png" alt="">
+                    <div>
+                        <p class="cryptoIndex">1 ETH = </p>
+                        <p class="cryptoIndexPrice">R$ 16.956</p>
+                    </div>
+                </div>
+                 
+                <div class="cryptoCards">
+                    <img src="img/Rectangle 11.png" alt="">
+                    <div>
+                        <p class="cryptoIndex">1 ETH = </p>
+                        <p class="cryptoIndexPrice">R$ 16.956</p>
+                    </div>
+                </div>
+            </div>
+    
+
+            <div class="convertCrypto">
+                <p class="titleConvertCrypto">Convert Crypto</p>
+
+                <hr>
+                <form action="">
+                    <div class="exchangeCryptoInput">
+                        <select class="selectCrypto">
+                            <option id="BTC" value="1">BTC</option>
+                            <option id="ETH" value="2">ETH</option>
+                            <option id="BNB" value="3">BNB</option>
+                            <option id="BUSD" value="4">BUSD</option>
+                        </select>
+                        
+                        <input id="firstCoin" type="number">
+                    </div>
+    
+                    <p style="color: #D8DADC; font-family: 'Varela Round', sans-serif;">to</p>
+    
+                    <div class="exchangeCryptoInput">
+                        <select class="selectCrypto">
+                            <option id="BTC" value="1">BTC</option>
+                            <option id="ETH" value="2">ETH</option>
+                            <option id="BNB" value="3">BNB</option>
+                            <option id="BUSD" value="4">BUSD</option>
+                        </select>
+            
+                        <input id="secondCoin" type="number">
+                    </div>
+        
+                    <button type="submit" id="exchangeCoin">Exchange</button>
+                </form>
+    
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

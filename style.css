@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #172635;
+}
+a{
+   text-decoration: none;
+   color: #D8DADC;
+}
+
+
+#homeCryptos{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-between;
+}
+
+
+
+#navbar{
+    list-style: none;
+    
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 2vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    color: #D8DADC;
+}
+.nav-itens{
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#slide{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: aqua;
+    width: 100vw;
+    height: 43.47826086956522vh;
+    
+  
+}
+.items{
+    position: absolute;
+    display:flex;
+    width: 100vw;
+    height: 43.47826086956522vh;
+    background-color: bisque;
+    overflow: hidden;
+
+    
+}
+.item{
+      transition: all 1s;
+}
+.item:first-child{
+    margin-left: -100%;
+}
+.item img{
+    width:  100vw;
+    height: 43.47826086956522vh;
+    
+}
+.button{
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: #1A8CD8;
+    user-select: none;
+    z-index: 1;
+    
+    transition: all 1s;
+}
+
+.button:hover{
+    color: #ffffff;
+    background-color: #00000055;
+    cursor: pointer;
+}
+
+.indexCryptoPrices{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: 5vw;
+    width: 194px;
+    height: 202px;
+}
+.cryptoCards{
+    box-shadow: 0px 3px 10px black;
+
+    color: #D8DADC;
+    font-family: 'Varela Round', sans-serif;
+
+    width: 194px;
+    height: 202px;
+}
+
+
+.cryptoIndex{
+    color: #53585C;
+}
+.cryptoIndexPrice{
+    font-size: 24px;
+}
+
+.convertCrypto{
+    width: 300px;
+    height: 300px;
+    margin-right: 5vw;
+    box-shadow: 0px 3px 10px black;
+    display: flexbox;
+}
+
+.titleConvertCrypto{
+    color: #D8DADC;
+    font-size: 2rem;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    background-color: #53585C;
+}
+
+input{
+    color: #D8DADC;
+}
+#exchangeCoin{
+    color: #D8DADC;
+}
+
+.selectCrypto{
+    border-radius: 7px;
+    border: 2px solid #c2c4c5;
+    color: #D8DADC
+}
+
+
+option{
+    color: #D8DADC; 
+    font-family: 'Varela Round', sans-serif;
+}
+
+#firstCoin{
+    border: 2px solid #c2c4c5;
+    border-radius: 3px;
+    width: 13vw;
+    height: 5vh;
+}
+
+#secondCoin{
+    border: 2px solid #c2c4c5;
+    border-radius: 3px;
+    width: 13vw;
+    height: 5vh;
+}
+
+#exchangeCoin{
+    border: 2px solid #c2c4c5;
+    border-radius: 3px;
+    width: 7vw;
+    height: 4vh;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+.exchangeCryptoInput{
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+a:hover{
+    color: #1A8CD8;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 810px) {
+    #homeCryptos{
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .convertCrypto{
+        margin: auto;
+        margin-bottom: 8vw;
+    }
+    .indexCryptoPrices{
+        margin-left: 2vw;
+        margin-bottom: 8vw;
+    }
+    
+}
